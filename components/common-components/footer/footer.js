@@ -1,7 +1,7 @@
 import React from 'react';
 import { Container, Header, Content, Footer, FooterTab, Button, Icon, Text } from 'native-base';
 
-class Footer extends React.Component {
+class MyFooter extends React.Component {
     constructor(props) {
         super(props);
     }
@@ -15,7 +15,7 @@ class Footer extends React.Component {
                     <FooterTab>
                         <Button vertical>
                             <Icon name="apps" />
-                            <Text>Apps</Text>
+                            <Text>Home</Text>
                         </Button>
                         <Button vertical>
                             <Icon name="camera" />
@@ -34,10 +34,6 @@ class Footer extends React.Component {
             </Container>
         );
     }
-} Copy
-
-        );
-    }
 }
 
-export default Footer;
+export default MyFooter;

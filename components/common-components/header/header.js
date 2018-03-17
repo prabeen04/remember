@@ -10,11 +10,9 @@ class MyHeader extends React.Component {
         return (
             <Container>
                 <Header>
-                    <Left />
                     <Body>
                         <Title>Remember</Title>
                     </Body>
-                    <Right />
                 </Header>
             </Container>
         );

@@ -1,6 +1,8 @@
 import React from 'react';
 import MyHeader from './components/common-components/header/header';
-import { Container, Header, Content, Footer, FooterTab, Button, Icon } from 'native-base';
+import MyTab from './components/tabs/my-tabs';
+import MyFooter from './components/common-components/footer/footer';
+import { Container } from 'native-base';
 import Expo from "expo";
 
 export default class App extends React.Component {
@@ -24,23 +26,8 @@ export default class App extends React.Component {
     return (
       <Container>
       <MyHeader />
-      <Content />
-      <Footer>
-        <FooterTab>
-          <Button>
-            <Icon name="apps" />
-          </Button>
-          <Button>
-            <Icon name="camera" />
-          </Button>
-          <Button active>
-            <Icon active name="navigate" />
-          </Button>
-          <Button>
-            <Icon name="person" />
-          </Button>
-        </FooterTab>
-      </Footer>
+      <MyTab/>
+      <MyFooter/>
     </Container>
     );
   }
