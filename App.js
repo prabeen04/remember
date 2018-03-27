@@ -23,7 +23,7 @@ export default class App extends React.Component {
     }
     return (
       <Container>
-       <MyHeader />
+       <Header />
         <Content>
          <Text>Google Plus</Text>
         </Content>

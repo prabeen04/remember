@@ -1,4 +1,5 @@
 import React from 'react';
+import { View, Text } from 'react-native';
 import { Container, Header, Left, Body, Right, Title } from 'native-base';
 
 class MyHeader extends React.Component {
@@ -8,13 +9,16 @@ class MyHeader extends React.Component {
 
     render() {
         return (
-            <Container>
-                <Header>
+            <View style={{height: 200}}>
+                {/* <Header>
                     <Body>
                         <Title>Remember</Title>
                     </Body>
-                </Header>
-            </Container>
+                </Header> */}
+                <Text>
+                    Remember
+                </Text>
+            </View>
         );
     }
 }
