@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { View, Text } from 'react-native';
-class Map extends Component {
+class Post extends Component {
   static propTypes = {
     prop: PropTypes
   }
@@ -8,9 +8,9 @@ class Map extends Component {
   render() {
     return (
       <View>
-        <Text>Map component</Text>
+        <Text>Post component</Text>
       </View>
     )
   }
 }
-export default Map;
+export default Post;
